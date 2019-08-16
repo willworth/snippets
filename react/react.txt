@@ -1,0 +1,9 @@
+// regarding async state updates
+
+handleClick = () = > {
+    this.setState((prevState, prevProps)=>{
+        return { myStateObject: prevState.myStateObject + 1}
+    }
+        () => console.log (this.state.myStateObject)
+    )
+}
