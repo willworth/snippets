@@ -1,0 +1,11 @@
+git remote remove origin
+git remote add origin  git@hwiaglohldhghsdlgh
+----------------------------------------------
+aliases
+https://gggritso.com/human-git-aliases
+nevermind = !git reset --hard HEAD && git clean -d -f
+--------------------------------------------------
+How to set up a *global* .gitignore that gets applied to all the repos on your computer:
+ $ git config --global core.excludesfile ~/.gitignore_global 
+ // Fill out ~/.gitignore_global Never forget to ignore node_modules again!
+ ---------------------

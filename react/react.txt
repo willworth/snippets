@@ -7,3 +7,14 @@ handleClick = () = > {
         () => console.log (this.state.myStateObject)
     )
 }
+
+
+//toggle version
+
+ <button
+            onClick={() =>
+              this.setState(state => ({
+                showChild: !state.showChild
+              }))
+            }
+          >
