@@ -44,3 +44,18 @@ function containsCommonItem (arr1, arr2){
 }    
 
 containsCommonItem(array1,array2);
+
+
+/////////////////////////////
+
+
+The some() method tests whether at least one element in the array passes the test implemented by the provided function. It returns a Boolean value. 
+
+containsCommonItem2(array1,array2);
+
+function containsCommonItem2(arr1,arr2){
+  return arr1.some(item => arr2.includes
+  (item))
+}
+
+////////////////////////
