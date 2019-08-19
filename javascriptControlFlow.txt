@@ -17,3 +17,30 @@ const finder = function (arr){
 finder(myArray)
 
 //////////////////////
+
+
+for checking if x in arr1 is in arr2, we can create an object.  this is how js does hashtable lookups.
+
+const array1 = ['x','s','t','w','y'];
+const array2 = ['a','n','r','q','p'];
+
+
+
+
+function containsCommonItem (arr1, arr2){
+    let map = {};
+    for (let i=0; i<arr1.length; i++){
+        if (!map[arr1[i]]){
+            const item = arr1[i];
+            map[item] = true;
+        }
+    }
+    for (j=0; j< arr2.length;j++){
+      if(map[arr2[j]]){
+        return true;
+      }
+    }
+    return false;
+}    
+
+containsCommonItem(array1,array2);
