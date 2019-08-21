@@ -59,3 +59,30 @@ function containsCommonItem2(arr1,arr2){
 }
 
 ////////////////////////
+
+https://repl.it/@willworth/arrayDataStructure
+
+const myArray = ['a', 'b', 'c', 'd'];
+// 4*4 = 16 bytes of storage
+
+//push
+myArray.push('e'); // O(1)
+
+//pop
+myArray.pop; // O(1)
+
+
+
+
+myArray.unshift('x'); // O(n)
+
+//3 params: where to start, how many to delete, what to insert
+myArray.splice(2,0, 'alien') //O(n/2) simplifies to O(n)
+
+console.log(myArray)
+
+
+//remember that some langs have static arrays eg C++
+
+
+////////////////
